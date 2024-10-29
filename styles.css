@@ -1,0 +1,35 @@
+#hero{
+    background-image: url(images/sunset.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    height:100vh;
+}
+
+#hero-text{
+    font-size: 32pt;
+    position: relative;
+    animation-name: hero-text-move;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hero-text-move {
+    0% {
+        /* position:relative; */
+        top: 5%;
+        opacity: 0;
+    }
+
+    95%{
+        opacity:1;
+    }
+
+    100% {
+        /* position:relative; */
+        top: 0%;
+        opacity:0;
+    }
+}
+
