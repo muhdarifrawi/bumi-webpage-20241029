@@ -16,7 +16,7 @@ heroTextChanger = async () => {
         "Stability and Growth",
         "Rooted Firm",
         "Reach for the Open Skies",
-        "Empowering To Wellness",
+        "Empowering Wellness",
     ]
 
     let heroText = document.querySelector("#hero-text");
