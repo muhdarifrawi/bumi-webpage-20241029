@@ -71,7 +71,6 @@ nav{
 
 @media (max-width: 768px) {
     #hero {
-        background-image: url(images/sunset-50.jpg);
-        background-attachment: scroll;
+        background-image: url(images/sunset-75.jpg);
     }
 }   
