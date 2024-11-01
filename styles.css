@@ -61,12 +61,13 @@ nav{
 
 .down-arr{
     color:white;
-    border:white 1px solid;
-    border-radius:15px;
     width:30px;
+    font-weight:bold;
+    /* border:white 1px solid;
+    border-radius:15px;
     height:30px;
     margin:0;
-    padding:0 0 0 6.5px;
+    padding:0 0 0 6.5px; */
 }
 
 @media (max-width: 768px) {
@@ -74,3 +75,9 @@ nav{
         background-image: url(images/sunset-75.jpg);
     }
 }   
+
+.connect-with-us-link{
+    width:165px;
+    color:white;
+    font-weight:bold;
+}
