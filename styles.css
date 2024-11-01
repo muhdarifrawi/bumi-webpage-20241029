@@ -68,3 +68,9 @@ nav{
     margin:0;
     padding:0 0 0 6.5px;
 }
+
+@media (max-width: 768px) {
+    #hero {
+        background-image: url(images/sunset-50.jpg);
+    }
+}
